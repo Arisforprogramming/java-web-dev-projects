@@ -4,8 +4,8 @@ package org.launchcode;
 
 //TODO: remove the /* (line 7) and */ (line 36) to explore the code
 
-/*
-public class FinalFields {
+
+/*public class FinalFields {
     public final int intValue = 42;
     public final double doubleValue;
     public final FortyTwo objectValue = new FortyTwo();
@@ -32,5 +32,4 @@ public class FinalFields {
         // objectValue refers to
         demo.objectValue.intValue = 6;
     }
-}
-*/
+} */

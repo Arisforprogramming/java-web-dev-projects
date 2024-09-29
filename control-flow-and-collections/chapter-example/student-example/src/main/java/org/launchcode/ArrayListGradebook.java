@@ -29,7 +29,7 @@ public class ArrayListGradebook {
             grades.add(grade);
         }
 
-        // Print class roster
+        // Print class roster  display prints out each student’s name and grade:
         System.out.println("\nClass roster:");
         double sum = 0.0;
 

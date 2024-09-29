@@ -4,7 +4,7 @@ public class Temperature {
 
     private double fahrenheit;
 
-    private static double absoluteZeroFahrenheit = -459.67;
+    private static final double ABSOLUTE_ZERO_FAHRENHEIT = -459.67;
 
     public double getFahrenheit() {
         return fahrenheit;
@@ -12,7 +12,7 @@ public class Temperature {
 
     public void setFahrenheit(double aFahrenheit) {
 
-        if (aFahrenheit < absoluteZeroFahrenheit) {
+        if (aFahrenheit < ABSOLUTE_ZERO_FAHRENHEIT) {
             throw new IllegalArgumentException("Value is below absolute zero");
         }
 
