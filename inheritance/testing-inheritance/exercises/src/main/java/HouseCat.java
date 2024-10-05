@@ -7,13 +7,25 @@ public class HouseCat extends Cat {
         name = aName;
     }
 
+//    public HouseCat(String aName) {
+//        name = aName;
+//    }
+
+    public String getName(){
+        return name;
+    }
+
+     public String getSpecies(){
+        return species;
+     }
     public boolean isSatisfied() {
+
         return !isHungry() && !isTired();
     }
 
     @Override
     public String noise() {
-        return "Hello, my name is " + name + "!";
+        return "HEKKKKKKKK";
     }
 
     public String purr() {
